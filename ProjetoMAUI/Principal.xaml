@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:paginas="clr-namespace:ProjetoMAUI"
+             x:Class="ProjetoMAUI.Principal"
+             Title="Principal"
+             BackgroundColor="Black">
+
+    <ShellContent Title="Adicionar Categoria" ContentTemplate="{DataTemplate paginas:NovaCategoria}"></ShellContent>
+    <ShellContent Title="Listar Categorias" ContentTemplate="{DataTemplate paginas:ListarCategorias}"></ShellContent>
+    
+    <ShellContent Title="Adicionar Classificação" ContentTemplate="{DataTemplate paginas:NovaClassificacao}"></ShellContent>
+    <ShellContent Title="Listar Classificação" ContentTemplate="{DataTemplate paginas:ListarClassificacao}"></ShellContent>
+    
+    <ShellContent Title="Adicionar Tipo" ContentTemplate="{DataTemplate paginas:NovoTipo}"></ShellContent>
+    <ShellContent Title="Listar Tipo" ContentTemplate="{DataTemplate paginas:ListarTipo}"></ShellContent>
+    
+    <ShellContent Title="Adicionar Usuario" ContentTemplate="{DataTemplate paginas:NovoUsuario}"></ShellContent>
+    <ShellContent Title="Listar Usuario" ContentTemplate="{DataTemplate paginas:ListarUsuario}"></ShellContent>
+    
+
+
+</Shell>

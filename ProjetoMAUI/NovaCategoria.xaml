@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoMAUI.NovaCategoria"
+             Title="NovaCategoria"
+             BackgroundColor="White">
+    <!-- Padding: Borda interna para que os componentes do formulario não fiquem colados 
+    nas bordas do dispositivo -->
+    <StackLayout Padding="25">
+        <TableView Intent="Form"    HasUnevenRows="True">
+            <TableRoot>
+                <TableSection>
+                    <EntryCell Label="Informe a descrição da categoria: " x:Name="Nome"></EntryCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+        <!-- Caso não aparecer automaticamente a ação para o Clicked do botão, aperte Ctrl+Espaço 
+        para que a sugestão apareça entre as aspas -->
+        <Button Text="Salvar Registro" Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>
